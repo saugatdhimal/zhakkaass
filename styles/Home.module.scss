@@ -1,6 +1,49 @@
-.container {
+.heroContainer {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    background: linear-gradient(to top, #d6e2f5, #bdd1ee, #b5cbe7, #aec5eb, #a7c0ea);
+}
+
+.heroContent {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    height: 100vh;
+    justify-content: center;
+
+    .heroTitle {
+        font-size: 60px;
+        font-weight: 700;
+        margin-bottom: 30px;
+        text-align: center;
+        line-height: 1.3;
+        color: #5147db;
+        text-shadow: 1px 2px var(--color-primary-dark);
+    }
+}
+
+.heroImage {
+    position: relative;
+    width: 50vw;
+    height: calc(100vh - 80px);
+}
+
+.section {
+    margin-bottom: 70px;
+}
+
+.sectionTitle {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.3;
+    text-shadow: 1px 1px #a7c0ea;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
 }

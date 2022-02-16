@@ -1,6 +1,8 @@
 .button {
     width: 120px;
+    min-width: fit-content;
     height: 50px;
+    padding: 0 20px;
     overflow: hidden;
     position: relative;
     color: var(--color-white);
