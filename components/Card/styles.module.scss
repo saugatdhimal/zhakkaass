@@ -1,0 +1,28 @@
+.container {
+    height: 350px;
+    width: 250px;
+    margin-top: 30px;
+
+    .mrp {
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        color: var(--color-primary);
+    }
+
+    .info {
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        color: var(--color-secondary);
+    }
+
+    .rating {
+        margin-top: 10px;
+        p {
+            text-align: center;
+        }
+    }
+}

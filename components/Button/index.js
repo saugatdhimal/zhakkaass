@@ -1,5 +1,5 @@
-import cs from '../cs';
-import Ripple from './Ripple';
+import cs from 'components/cs';
+import Ripple from 'components/Ripple';
 import styles from './styles.module.scss';
 
 const noop = () => {};
