@@ -1,12 +1,19 @@
 import Image from 'next/image';
+import Head from 'next/head';
+
 import Button from 'components/Button';
-import styles from 'styles/Home.module.scss';
 import ProductCard from 'components/Card';
 import InfoCard from 'components/InfoCard';
+
+import styles from 'styles/Home.module.scss';
 
 export default function Home() {
     return (
         <div>
+            <Head>
+                <title>Zhakkaass</title>
+                <meta name='viewport' content='initial-scale=1.0, width=device-width' />
+            </Head>
             <div className={styles.heroContainer}>
                 <div className={styles.heroContent}>
                     <p className={styles.heroTitle}>One-Stop Online Shopping In Nepal.</p>
@@ -61,7 +68,8 @@ export default function Home() {
                     <ProductCard />
                 </div>
             </div>
-            <div className={styles.products}>
+            <div className={styles.infos}>
+                <InfoCard />
                 <InfoCard />
                 <InfoCard />
                 <InfoCard />

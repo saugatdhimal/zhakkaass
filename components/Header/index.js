@@ -9,7 +9,7 @@ import styles from './styles.module.scss';
 function Header() {
     const router = useRouter();
     function activeRoute(routeName) {
-        if (routeName === router.asPath) {
+        if (router.asPath.includes(routeName)) {
             return `${styles.active}`;
         } else {
             return '';
@@ -37,17 +37,17 @@ function Header() {
                             <a className={activeRoute('/shop/kids')}>KIDS</a>
                         </Link>
                         <Link href='/bag'>
-                            <a>
+                            <a className={activeRoute('/bag')}>
                                 <FaShoppingBag size={20} />
                             </a>
                         </Link>
                         <Link href='/wishlist'>
-                            <a>
+                            <a className={activeRoute('/wishlist')}>
                                 <FaRegHeart size={20} />
                             </a>
                         </Link>
                         <Link href='/profile'>
-                            <a>
+                            <a className={activeRoute('/profile')}>
                                 <BsPerson size={25} />
                             </a>
                         </Link>

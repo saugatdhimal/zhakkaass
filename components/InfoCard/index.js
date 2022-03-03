@@ -3,7 +3,7 @@ import {RiExchangeFundsFill} from 'react-icons/ri';
 
 import styles from './styles.module.scss';
 
-const ProductCard = () => {
+const InfoCard = () => {
     return (
         <div className={styles.container}>
             <div className={styles.iconContainer}>
@@ -14,4 +14,4 @@ const ProductCard = () => {
     );
 };
 
-export default ProductCard;
+export default InfoCard;

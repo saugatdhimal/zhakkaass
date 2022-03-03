@@ -1,4 +1,11 @@
 .container {
-    height: 400px;
-    background-color: black;
+    height: 200px;
+    background-color: 'white';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .text {
+        font-size: 40px;
+    }
 }
