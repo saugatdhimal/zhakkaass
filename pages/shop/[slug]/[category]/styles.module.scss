@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: row;
+
+    .rightContainer {
+        width: 350px;
+
+        .contentContainer {
+            position: sticky;
+            top: 80px;
+            padding: 50px 0;
+        }
+
+        .title {
+            font-size: 25px;
+            font-weight: 700;
+            margin-bottom: 100px;
+            text-align: center;
+            transform: scaleY(1.5);
+        }
+
+        .link {
+            font-size: 18px;
+            font-weight: 600;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            text-transform: uppercase;
+        }
+    }
+
+    .leftContainer {
+        gap: 10px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-color: lightgray;
+        padding-top: 10px;
+        padding-bottom: 80px;
+    }
+}

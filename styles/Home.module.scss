@@ -47,3 +47,14 @@
     justify-content: space-around;
     gap: 10px;
 }
+
+.infos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 100px 0;
+    border-top: 2px solid #a7c0ea;
+    border-bottom: 2px solid #a7c0ea;
+    background-color: #d6e2f5;
+}
